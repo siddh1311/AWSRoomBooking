@@ -1,0 +1,49 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-amplifybooking-dev-184737-authRole",
+      "UnauthRoleArn": "arn:aws:iam::339712833393:role/amplify-amplifybooking-dev-184737-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::339712833393:role/amplify-amplifybooking-dev-184737-authRole",
+      "Region": "ca-central-1",
+      "DeploymentBucketName": "amplify-amplifybooking-dev-184737-deployment",
+      "UnauthRoleName": "amplify-amplifybooking-dev-184737-unauthRole",
+      "StackName": "amplify-amplifybooking-dev-184737",
+      "StackId": "arn:aws:cloudformation:ca-central-1:339712833393:stack/amplify-amplifybooking-dev-184737/ebe975b0-c887-11ee-97a1-026e550f9894",
+      "AmplifyAppId": "d1vsdcfra5yqf8"
+    },
+    "categories": {
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d1vsdcfra5yqf8",
+          "type": "manual"
+        }
+      },
+      "auth": {
+        "amplifybooking86431b33": {}
+      },
+      "function": {
+        "BookingHandler": {
+          "deploymentBucketName": "amplify-amplifybooking-dev-184737-deployment",
+          "s3Key": "amplify-builds/BookingHandler-7757445930786d774f32-build.zip"
+        },
+        "EmployeeHandler": {
+          "deploymentBucketName": "amplify-amplifybooking-dev-184737-deployment",
+          "s3Key": "amplify-builds/EmployeeHandler-4645684b304d78554a65-build.zip"
+        },
+        "RoomHandler": {
+          "deploymentBucketName": "amplify-amplifybooking-dev-184737-deployment",
+          "s3Key": "amplify-builds/RoomHandler-44494b7564496d51674a-build.zip"
+        },
+        "amplifybookingDbConnection": {
+          "deploymentBucketName": "amplify-amplifybooking-dev-184737-deployment",
+          "s3Key": "amplify-builds/amplifybookingDbConnection-LambdaLayerVersion55e6a7a9-build.zip"
+        }
+      },
+      "api": {
+        "EmployeeAPI": {},
+        "RoomAPI": {},
+        "BookingAPI": {}
+      }
+    }
+  }
+}

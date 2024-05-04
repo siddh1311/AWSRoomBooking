@@ -1,0 +1,103 @@
+{
+  "version": 1,
+  "paths": {
+    "/bookings/get-host/{userId}": {
+      "name": "/bookings/get-host/{userId}",
+      "lambdaFunction": "BookingHandler",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/bookings/get-invite/{userId}": {
+      "name": "/bookings/get-invite/{userId}",
+      "lambdaFunction": "BookingHandler",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/bookings/delete/{bookingId}": {
+      "name": "/bookings/delete/{bookingId}",
+      "lambdaFunction": "BookingHandler",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/bookings/meeting-times/{usedId}": {
+      "name": "/bookings/meeting-times/{usedId}",
+      "lambdaFunction": "BookingHandler",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/bookings/search/{usedId}": {
+      "name": "/bookings/search/{usedId}",
+      "lambdaFunction": "BookingHandler",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/bookings/add-booking/{userId}": {
+      "name": "/bookings/add-booking/{userId}",
+      "lambdaFunction": "BookingHandler",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/bookings/edit-booking/{userId}": {
+      "name": "/bookings/edit-booking/{userId}",
+      "lambdaFunction": "BookingHandler",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/bookings/deactivate/{bookingId}": {
+      "name": "/bookings/deactivate/{bookingId}",
+      "lambdaFunction": "BookingHandler",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/bookings/activate/{bookingId}": {
+      "name": "/bookings/activate/{bookingId}",
+      "lambdaFunction": "BookingHandler",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/buildings/add": {
+      "name": "/buildings/add",
+      "lambdaFunction": "BookingHandler",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/bookings/multi-add-booking/{userId}": {
+      "name": "/bookings/multi-add-booking/{userId}",
+      "lambdaFunction": "BookingHandler",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/bookings/multi-search/{userId}": {
+      "name": "/bookings/multi-search/{userId}",
+      "lambdaFunction": "BookingHandler",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/bookings/multi-get-host/{userId}": {
+      "name": "/bookings/multi-get-host/{userId}",
+      "lambdaFunction": "BookingHandler",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/bookings/multi-get-invite/{userId}": {
+      "name": "/bookings/multi-get-invite/{userId}",
+      "lambdaFunction": "BookingHandler",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "paths": {
+    "/rooms": {
+      "name": "/rooms",
+      "lambdaFunction": "RoomHandler",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/rooms/add": {
+      "name": "/rooms/add",
+      "lambdaFunction": "RoomHandler",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/rooms/edit": {
+      "name": "/rooms/edit",
+      "lambdaFunction": "RoomHandler",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/rooms/get/{floorNumber}/{buildingNumber}/{cityId}": {
+      "name": "/rooms/get/{floorNumber}/{buildingNumber}/{cityId}",
+      "lambdaFunction": "RoomHandler",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/rooms/get/details/{floorBuildingId}": {
+      "name": "/rooms/get/details/{floorBuildingId}",
+      "lambdaFunction": "RoomHandler",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/rooms/get/buildingNumbers/{cityId}": {
+      "name": "/rooms/get/buildingNumbers/{cityId}",
+      "lambdaFunction": "RoomHandler",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/rooms/getFloorNumbers/{buildingNumber}/{cityId}": {
+      "name": "/rooms/getFloorNumbers/{buildingNumber}/{cityId}",
+      "lambdaFunction": "RoomHandler",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/rooms/toggle-status/{roomId}": {
+      "name": "/rooms/toggle-status/{roomId}",
+      "lambdaFunction": "RoomHandler",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/rooms/getCities": {
+      "name": "/rooms/getCities",
+      "lambdaFunction": "RoomHandler",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/rooms/addMultiple": {
+      "name": "/rooms/addMultiple",
+      "lambdaFunction": "RoomHandler",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/rooms/get-buildings-for-cities": {
+      "name": "/rooms/get-buildings-for-cities",
+      "lambdaFunction": "RoomHandler",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}

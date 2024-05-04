@@ -1,0 +1,61 @@
+{
+  "version": 1,
+  "paths": {
+    "/users": {
+      "name": "/users",
+      "lambdaFunction": "EmployeeHandler",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/users/get/{userId}": {
+      "name": "/users/get/{userId}",
+      "lambdaFunction": "EmployeeHandler",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/users/add": {
+      "name": "/users/add",
+      "lambdaFunction": "EmployeeHandler",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/users/delete/{userId}": {
+      "name": "/users/delete/{userId}",
+      "lambdaFunction": "EmployeeHandler",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/users/update/{userId}": {
+      "name": "/users/update/{userId}",
+      "lambdaFunction": "EmployeeHandler",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/users/toggle-status/{userId}": {
+      "name": "/users/toggle-status/{userId}",
+      "lambdaFunction": "EmployeeHandler",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/users/getActive": {
+      "name": "/users/getActive",
+      "lambdaFunction": "EmployeeHandler",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/users/fetch-all-cities": {
+      "name": "/users/fetch-all-cities",
+      "lambdaFunction": "EmployeeHandler",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}
