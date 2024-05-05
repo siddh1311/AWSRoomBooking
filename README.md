@@ -25,9 +25,9 @@ Booking a meeting is composed of three steps.
   - Expand the table for each group to see its recommended rooms
   - Toggling “Show all rooms” will show rooms that are non-optimal, unavailable, or deactivated
 
-https://github.com/siddh1311/AWSRoomBooking/assets/84104206/c7666a6c-427a-4d10-9e9f-4ebe02bcb376
+https://github.com/siddh1311/AWSRoomBooking/assets/84104206/42188020-4914-4f05-8a4c-fb829845e476
 
-https://github.com/siddh1311/AWSRoomBooking/assets/84104206/9fd93a7e-3fed-4450-b98c-902da9088e24
+https://github.com/siddh1311/AWSRoomBooking/assets/84104206/c4c7b4a0-ad02-4d19-8b00-9db3d9890dfb
 
 ## Managing Bookings
 A page to view, delete, and edit your bookings.
@@ -42,9 +42,9 @@ Click the delete button next to a meeting, then confirm “OK” to delete a mee
 ### Edit
 Click the edit button to go through the meeting booking flow again. You can cancel editing at any time by clicking “Cancel Edit”.
 
-https://github.com/siddh1311/AWSRoomBooking/assets/84104206/80cc7f83-b6ec-4428-af75-9abe9bf822a4
+https://github.com/siddh1311/AWSRoomBooking/assets/84104206/db9812b1-c11b-43bd-8ec8-05addb214318
 
-https://github.com/siddh1311/AWSRoomBooking/assets/84104206/57fb9b58-85ac-4a75-9e3d-fc227ea4c819
+https://github.com/siddh1311/AWSRoomBooking/assets/84104206/724a6e07-604d-4073-8fd3-596e2b862828
 
 ## Manage Rooms
 A page to view your rooms. There are sort, filter, and search capabilities for the row headers.
@@ -62,7 +62,7 @@ Note: Any meetings booked with this room will be canceled until rebooked or the 
 ### Import Rooms (.csv)
 Click “Import Rooms” and upload your .csv file to import rooms.
 
-https://github.com/siddh1311/AWSRoomBooking/assets/84104206/550aee59-bfd6-4517-a596-a50e3802a7d7
+https://github.com/siddh1311/AWSRoomBooking/assets/84104206/9a0eaff3-aa36-468b-b6a9-6aa8686f2a4f
 
 ## Manage Users
 A page to view your users. There are sort, filter, and search capabilities for the row headers.
@@ -79,7 +79,7 @@ The deactivate/activate buttons can be found inside the edit user form. Deactiva
 ### Import Users (.csv)
 Similar to importing rooms, click “Import Users” and upload your .csv file to import users.
 
-https://github.com/siddh1311/AWSRoomBooking/assets/84104206/6d82d8ef-8cc4-413b-a3f9-e18ad49e8ccf
+https://github.com/siddh1311/AWSRoomBooking/assets/84104206/ac04a5e4-1611-4b04-8d9f-beaad343eed9
 
 <br>
 <br>
